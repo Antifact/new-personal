@@ -2,7 +2,40 @@
   text-align: center;
 }
 
+body {
+  /* background-color: #B1B7D1; */
+  background-color: beige;
+}
+
 /* override hover color for nav links */
 .navbar-dark {
   --bs-navbar-hover-color: green;
+}
+
+.wrapper {
+  padding: 20px;
+  margin: 50px auto;
+  background-color: #F2F5FF;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.home-header {
+  padding: 20px;
+  margin: auto;
+  background-color: #F2F5FF;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.home-profile-caption {
+  margin-top: 10px;
+}
+
+.home-body {
+  padding: 20px;
+  margin: auto;
+  background-color: #F2F5FF;
+  border-radius: 5px;
+  width: 50%;
 }
