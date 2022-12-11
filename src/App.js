@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import About from './pages/About';
 import Navigation from './components/Navigation';
 
 function App() {
@@ -13,9 +14,11 @@ function App() {
 
         <div className='content-wrapper'>
             <Routes>
-              <Route 
-              path='/'
-              element= { <Home /> } />
+
+              <Route path='/' element= { <Home /> } />
+
+              <Route path='/about' element= { <About /> } />
+
             </Routes>
         </div>
       </Router>

@@ -1,3 +1,8 @@
 .App {
   text-align: center;
 }
+
+/* override hover color for nav links */
+.navbar-dark {
+  --bs-navbar-hover-color: green;
+}
