@@ -20,6 +20,14 @@ const Home = () => {
         <div className='home-body'>
           <p>placeholder text. lorem ipsum and such.</p>
         </div>
+
+        <div className='links'>
+          <ul>
+            <li><a href="https://github.com/Antifact/">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/caleb-bonfield-b74035162/">LinkedIn</a></li>
+            <li><a href="http://hicaleb.com/share/cv.pdf">Curriculum Vitae</a></li>
+          </ul>
+        </div>
       </div>
     </>
   )

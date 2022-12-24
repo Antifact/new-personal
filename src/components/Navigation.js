@@ -15,6 +15,7 @@ const Navigation = () => {
                 <Nav className='me-auto'>
                   <Nav.Link as={ Link } to='/'>home</Nav.Link>
                   <Nav.Link as={ Link } to='/about'>about</Nav.Link>
+                  <Nav.Link as={ Link } to='/projects'>projects</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
         </Container>
