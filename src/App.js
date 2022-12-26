@@ -6,13 +6,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Navigation from './components/Navigation';
-import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation />
+        {/* <Navigation /> */}
 
         <div className='content-wrapper'>
             <Routes>
@@ -26,8 +25,6 @@ function App() {
             </Routes>
         </div>
       </Router>
-
-      <Footer />
     </div>
   );
 }

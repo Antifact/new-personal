@@ -8,7 +8,8 @@ body {
   height: 100%;
   width: 100%;
   /* background-color: #B1B7D1; */
-  background-color: beige;
+  /* background-color: beige; */
+  background-color: #171717;
 }
 
 /* override hover color for nav links */
@@ -18,31 +19,33 @@ body {
 
 .wrapper {
   padding: 20px;
-  margin: 50px auto;
-  background-color: #F2F5FF;
+  margin: 25px auto;
+  color: #F2F5FF;
+  background-color: #171717;
   border-radius: 5px;
   width: 50%;
-  border: lightgrey 1px solid;
+  /* border: lightgrey 1px solid; */
 }
 
-.home-header {
+.home-header, .about-header {
   padding: 20px;
   margin: auto;
-  background-color: #F2F5FF;
+  color: #F2F5FF;
+  background-color: #171717;
   border-radius: 5px;
   width: 50%;
 }
 
 .home-profile-caption {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
-.home-body {
+.home-body, .about-body {
   padding: 20px;
   margin: auto;
-  background-color: #F2F5FF;
+  background-color: #171717;
   border-radius: 5px;
-  width: 50%;
+  width: 80%;
 }
 
 .footer {
@@ -72,13 +75,29 @@ li {
 }
 
 a {
-  transition: 0.2s;
+  transition: 0.5s;
   text-decoration: none;
   font-weight: 600;
-  color: #212529;
+  color: #7a7a7a;
+}
+
+p a {
+  color: #3bff76;
 }
 
 a:hover {
+  color: green;
+}
+
+a.gh:hover {
+  color: white;
+}
+
+a.lin:hover {
+  color: blue;
+}
+
+a.cv:hover {
   color: green;
 }
 
